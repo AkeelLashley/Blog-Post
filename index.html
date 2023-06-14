@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>Akeel's Corner</title>
+  </head>
+  <body>
+    <header>
+      
+      <nav class="navbar">
+        <ul>
+          <li class="navbar-logo">Akeel Lashley</li>
+          <li class="navbar-toggle">
+            <span class="material-symbols-outlined"> menu </span>
+          </li>
+          <li class="navbar-links"><a href="/resume.pdf" target="_blank">Resume</a></li>
+          <li class="navbar-links"><a href="#blog">Blog</a></li>
+          <li class="navbar-links"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <section id="home" class="home-section">
+          <div class="content-container">
+
+            <div style="position: sticky; top:0">
+              stick to the top of the parent when scroll</div>
+            <h1>Welcome to Akeel's Corner!</h1>
+            <p>
+              Dive into the fascinating world of sports with my blog. Here,
+              you'll find thought-provoking articles, detailed analyses,
+              exciting match reviews, and insights from all corners of the
+              sports world. It's a place for fans, enthusiasts, and curious
+              minds alike. Let's embark on this exciting journey together. Enjoy
+              reading!
+            </p>
+          </div>
+        </section>
+
+        <section id="blog" class="blog-section">
+          <div class="card">
+            <div class="image-section image-one"></div>
+            <div class="content">
+              <h2>The Evolution of Basketball</h2>
+              <p>
+                From its humble beginnings to the fast-paced, physical game of
+                today, join us as we explore the rich history and progressive
+                changes in the world of basketball.
+              </p>
+              <a href="" class="button">Read More</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-section image-one"></div>
+            <div class="content">
+              <h2>The Evolution of Basketball</h2>
+              <p>
+                From its humble beginnings to the fast-paced, physical game of
+                today, join us as we explore the rich history and progressive
+                changes in the world of basketball.
+              </p>
+              <a href="" class="button">Read More</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-section image-one"></div>
+            <div class="content">
+              <h2>The Evolution of Basketball</h2>
+              <p>
+                From its humble beginnings to the fast-paced, physical game of
+                today, join us as we explore the rich history and progressive
+                changes in the world of basketball.
+              </p>
+              <a href="" class="button">Read More</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-section image-two"></div>
+            <div class="content">
+              <h2>Football: A Game of Strategy and Skill</h2>
+              <p>
+                Delve into the tactical intricacies of football. Learn about the
+                strategies that shape the game, from play-calling to the key
+                skills players need to succeed.
+              </p>
+              <a href="" class="button">Read More</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image-section image-three"></div>
+            <div class="content">
+              <h2>The Global Impact of Soccer</h2>
+              <p>
+                Soccer is more than just a sport; it's a global phenomenon with
+                a massive following. Discover how this simple game influences
+                cultures and brings people together around the world.
+              </p>
+              <a href="" class="button">Read More</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+          <div class="contact-content">
+            <h2 class="contact-title">Contact Us</h2>
+
+            <form
+            action="https://formspree.io/f/mgebjnoe"
+            method="POST"
+            >
+            <label>
+              Your email:
+              <input type="email" name="email" id="input1">
+            </label>
+            <label>
+              Your message:
+              <textarea name="message" id="input1"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit" onclick ="clearText()">Send</button>
+          
+            
+
+
+
+
+
+
+
+<div style="position: relative; top: 20px;"> I'm 20px lower than my normal position.</div>
+
+<div style="position: relative; height: 200px; width: 200px; background: green;">
+  <div style="position: absolute; top: 20px; left: 20px; height: 50px; width: 50px; background: red;">
+  Red Box</div>
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function clearText() {
+    let input1 = document.getElementById('input1');
+    let input2 = document.getElementById('input2');
+
+    input1.innerHTML = ""
+    input2.innerHTML = ""
+
+}
+</script>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="social-media-links">
+          <a href="#" class="social-media-link">Github</a>
+          <a href="#" class="social-media-link">LinkedIn</a>
+          <a href="#" class="social-media-link">StackOverflow</a>
+        </div>
+        <div class="copyright">
+          Copyright &copy; 2023 Akeel Lashley. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
